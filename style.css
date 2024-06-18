@@ -1,0 +1,84 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background: linear-gradient(rgb(61, 133, 155) 0%, rgb(61, 133, 155) 30%, rgb(61, 133, 155) 92%);;
+    color: rgba(255, 255, 255, 1);
+    font: normal 15pt arial;
+    text-align: center;
+}
+
+header{
+    font: normal 15pt arial;
+    text-align: center;
+}
+
+section{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    color: rgba(0, 0, 0, 1);
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    margin-top: 55px;
+}
+
+footer{
+    font-style: italic;
+}
+
+img{
+    border: 6px solid rgb(75, 75, 75);
+    border-radius: 100%;
+}
+
+table tr td{
+    width: 670px;
+    text-align: center;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 10px;
+}
+
+.button{
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    border: 2px solid rgb(58, 58, 58);
+    font: normal 15pt arial;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.button:focus {
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid #000000;
+    outline-style: none;
+}
+
+.button:hover { 
+    background-color: rgb(228, 228, 228); 
+    border: 2px solid #5aabf7;
+    outline-style: none;
+}
+
+.short{
+    width: 70px;
+}
+
+input[type=text]{
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font: normal 20pt arial;
+    box-shadow: 2px 2px 2px gray;
+}
+
+input[type=text],input[type=password] {
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font: normal 20pt arial;
+    box-shadow: 2px 2px 2px gray;
+}

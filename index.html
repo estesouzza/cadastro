@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário em JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário em JavaScript</h1>
+    </header>
+    <section id="form">
+        <form id="form_user">
+            
+            <label>Nome Completo:</label>
+            <br>
+            <input type="text" id="txt_name" class="text_box">
+            <br><br>
+            <label>Nome de Usuário:</label>
+            <br>
+            <input type="text" id="txt_username" class="text_box">
+            <br><br>
+            <label>E-mail:</label>
+            <br>
+            <input type="text" id="txt_year" class="text_box">
+            <br><br>
+            <label> Digite sua Idade:</label>
+            <br>
+            <input type="text" id="txt_confirmação2" class="text_box">
+            <br><br>
+            <label>Senha:</label>
+            <br>
+            <input type="password" id="txt_password" class="text_box">
+            <br><br>            
+            <label>Telefone:</label>
+            <br>
+            <input type="text" id="txt_phone" class="text_box" maxlength="11">
+            <br><br>
+            <label> Observações:</label>
+            <br>
+            <input type="text" id="txt_observations" class="text_box">
+            <br><br>
+            <label>Sexo:</label>
+            <br>
+            <input type="radio" name="radio_gender" id="male" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radio_gender" id="female">
+                <label for="fem">Feminino</label>
+            <br><br>
+            <label>Cor:</label>
+            <br>
+            <input type="radio" name="radio_color" id="white" checked>
+                <label for="white">Branco (a)</label>
+                <input type="radio" name="radio_color" id="black">
+                <label for="black">Preto (a)</label>
+                <input type="radio" name="radio_color" id="brown" checked>
+                <label for="brown">Pardo (a)</label>
+                <input type="radio" name="radio_color" id="yellow" checked>
+                <label for="yellow">Amarelo (a)</label>
+
+            <br><br>
+        <input class="button" type="button" value="Confirmar" id="button_confirm" onclick="verificarSenhas()">
+        </form>
+    </section>
+    <br>
+    <script src="script.js"></script>
+</body>
+</html>
